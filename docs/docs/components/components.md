@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Components
 
-React Maps Suite has a base component (the default export) which creates the map instance and exposes the Context API provider. This is then used by other components, which are passed as children, to render things on the map such as markers or shapes. The map instance and its utils functions can be accessed through the [hooks](hooks).
+React Maps Suite has a base component (the default export) which creates the map instance and exposes the Context API provider. This is then used by other components, which are passed as children, to render things on the map such as markers or shapes. The map instance and its utils functions can be accessed through the [hooks](../hooks).
 
 ## Base component
 

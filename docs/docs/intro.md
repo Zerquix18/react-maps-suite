@@ -105,7 +105,7 @@ function App() {
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-You can read more about the [base component for the maps](components#base-component).
+You can read more about the [base component for the maps](./components#base-component).
 
 ## Contributing
 
@@ -113,5 +113,5 @@ You can contribute on [Github](https://github.com/Zerquix18/react-maps-suite).
 
 ## Beyond
 
-You are now ready to add more components to your map. They are passed a children of the main map. See the [components guide](components).
+You are now ready to add more components to your map. They are passed a children of the main map. See the [components guide](./components).
 

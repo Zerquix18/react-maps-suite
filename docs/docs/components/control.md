@@ -22,6 +22,13 @@ function App() {
 }
 ```
 
+<iframe src="https://codesandbox.io/embed/weathered-field-ez72b2?fontsize=14&hidenavigation=1&theme=dark"
+     style={{width: '100%', height: '500px', border:0, borderRadius: '4px', overflow: 'hidden'}}
+     title="weathered-field-ez72b2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ## Props
 
 ### position
@@ -54,6 +61,8 @@ Leaflet supports:
 * TOP_RIGHT
 * BOTTOM_LEFT
 * BOTTOM_RIGHT
+
+If you pass a position which is not supported by the provider, it will be ignored and nothing will be rendered. 
 
 ### children
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Hooks
 
-React Maps Suite supports two hooks which allow you to extend the functionality of the map by directly accessing the underlying map libraries. The provider is rendered on the base `<Maps />` component.
+React Maps Suite supports two hooks which allow you to extend the functionality of the map by directly accessing the underlying map libraries. The provider is rendered on the base `<Maps />` component or the default export.
 
 ## useMapCluster
 
@@ -16,8 +16,8 @@ Includes an object with:
 
 * `type`: The provider which is being used (google | mapbox | leaflet).
 * `googleMap`: A `google.maps.Map` object, only if the `type` is google.
-* `mapBox`: A `mapboxgl.Map` object, only if the type is mapbox.
-* `leaflet`: A `L.Map` object, only if the type is leaflet.
+* `mapBox`: A `mapboxgl.Map` object, only if the `type` is mapbox.
+* `leaflet`: A `L.Map` object, only if the `type` is leaflet.
 * `center`: The center of the map, regardless of the provider.
 * `zoom`: The zoom of the map, regardless of the provider.
 * `utils`: Helper functions that you can use regardless of the provider:

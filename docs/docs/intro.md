@@ -29,13 +29,20 @@ React Maps Suite uses the [Google Maps SDK for JavaScript](https://developers.go
 You can easily render a map using google maps with:
 
 ```jsx
-import MapBase from 'react-maps-suite';
+import Maps from 'react-maps-suite';
 
 function App() {
-  return <MapBase provider="google" height={400} />
+  return <Maps provider="google" height={400} />
 }
 ```
 
+<iframe src="https://codesandbox.io/embed/hopeful-cookies-c52qii?fontsize=14&hidenavigation=1&theme=dark"
+     style={{width: '100%', height: '500px', border:0, borderRadius: '4px', overflow: 'hidden'}}
+     title="hopeful-cookies-c52qii"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+   
 For Google Maps exclusively, there are two props:
 
 * `googleLoaderOptions` which allows you to specify the `apiKey`, `version` and `libraries` when loading the Maps SDK.
@@ -50,8 +57,6 @@ function App() {
   return <Maps provider="google" height={400} googleLoaderOptions={{ apiKey: 'YOUR API KEY', libraries: ['geometry']}} />
 }
 ```
-
-You can read more about the base map here.
 
 ### MapBox
 
@@ -93,11 +98,20 @@ function App() {
 }
 ```
 
+<iframe src="https://codesandbox.io/embed/adoring-fast-klfon4?fontsize=14&hidenavigation=1&theme=dark"
+     style={{width: '100%', height: '500px', border:0, borderRadius: '4px', overflow: 'hidden'}}
+     title="adoring-fast-klfon4"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+You can read more about the [base component for the maps](components#base-component).
+
 ## Contributing
 
-You can contribute on Github or you can buy me a coffee.
+You can contribute on [Github](https://github.com/Zerquix18/react-maps-suite).
 
 ## Beyond
 
-You are now ready to add more components to your map. They are passed a children of the main map.
+You are now ready to add more components to your map. They are passed a children of the main map. See the [components guide](components).
 

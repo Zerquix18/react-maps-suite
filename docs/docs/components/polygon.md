@@ -16,7 +16,7 @@ function App() {
         path={[
           {lat: 10.517041542637703, lng: -99.15441553220901},
           {lat: -2.9572396966975063, lng: -99.68175928220901},
-          {lat: 4.770300732061375, lng: -86.32238428220901}
+          {lat: 4.770300732061375, lng: -86.32238428220901},
           {lat: 10.517041542637703, lng: -99.15441553220901},
         ]}
         fillColor="#ff0000"
@@ -27,6 +27,12 @@ function App() {
   );
 }
 ```
+
+<iframe src="https://codesandbox.io/embed/quizzical-grass-vekhrx?fontsize=14&hidenavigation=1&theme=dark"
+     style={{width: '100%', height: '500px', border:0, borderRadius: '4px', overflow: 'hidden'}}     title="quizzical-grass-vekhrx"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Props
 
